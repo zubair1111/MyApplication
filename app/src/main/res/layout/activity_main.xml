@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.zubai.myapplication.MainActivity"
+    android:background="@drawable/back"
+
+    >
+
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="284dp"
+        android:layout_y="488dp"
+        android:id="@+id/textClock" />
+
+    <TextView
+        android:textColor="#454545"
+        android:text="GPA Calculator"
+        android:layout_width="172dp"
+        android:layout_height="28dp"
+        android:layout_x="93dp"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:layout_y="65dp"
+        android:id="@+id/textView3"
+        android:spinnerMode="dialog"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="394dp"
+        android:id="@+id/textgpa"
+        android:textSize="40px"
+        android:textColor="#FF0000"/>
+
+    <Button
+        android:text="Calculate GPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="speak"
+        android:layout_x="138dp"
+        android:layout_y="334dp"
+android:textColor="#008CBA"
+
+        android:textSize="14dp"
+
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c5"
+        android:entries="@array/credit"
+        android:layout_x="102dp"
+        android:layout_y="267dp"
+
+        android:spinnerMode="dialog"
+        android:backgroundTint="#3090C7"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c6"
+        android:entries="@array/credit"
+
+        android:layout_x="102dp"
+        android:layout_y="297dp"
+        android:spinnerMode="dialog"
+        android:backgroundTint="#3090C7"
+        ></Spinner>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c4"
+        android:entries="@array/credit"
+        android:layout_x="102dp"
+        android:layout_y="237dp"
+        android:spinnerMode="dialog"
+        android:backgroundTint="#3090C7"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c3"
+        android:entries="@array/credit"
+        android:layout_x="102dp"
+        android:layout_y="207dp"
+        android:spinnerMode="dialog"
+        android:backgroundTint="#3090C7"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c2"
+        android:entries="@array/credit"
+        android:layout_x="102dp"
+        android:layout_y="177dp"
+        android:spinnerMode="dialog"
+        android:backgroundTint="#3090C7"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c1"
+        android:entries="@array/credit"
+        android:layout_x="102dp"
+        android:layout_y="147dp"
+        android:spinnerMode="dialog"
+android:backgroundTint="#3090C7"
+
+        />
+
+    <TextView
+        android:text="Select Credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="87dp"
+        android:textStyle="bold"
+        android:textSize="28px"
+        android:layout_y="124dp"
+        android:textColor="#4CAF50"
+        android:id="@+id/textView"
+        android:spinnerMode="dialog"/>
+
+    <TextView
+        android:textColor="#4CAF50"
+        android:text="Select Grade" android:spinnerMode="dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="222dp"
+        android:textStyle="bold"
+        android:textSize="28px"
+        android:layout_y="124dp"
+        android:id="@+id/textView1"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s1"
+        android:entries="@array/grade"
+        android:layout_x="242dp"
+        android:layout_y="147dp"
+        android:spinnerMode="dialog"
+        android:backgroundTint="#3090C7"
+
+      />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s2"
+        android:entries="@array/grade"
+        android:layout_x="242dp"
+        android:layout_y="177dp"
+        android:spinnerMode="dialog"
+        android:backgroundTint="#3090C7"
+      />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s3"
+        android:entries="@array/grade"
+        android:layout_x="242dp"
+        android:layout_y="207dp"
+        android:spinnerMode="dialog"
+        android:backgroundTint="#3090C7"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s4"
+        android:entries="@array/grade"
+        android:layout_x="242dp"
+        android:layout_y="237dp"
+        android:backgroundTint="#3090C7"
+        android:spinnerMode="dialog"
+       />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s5"
+        android:entries="@array/grade"
+        android:layout_x="242dp"
+        android:layout_y="267dp"
+        android:spinnerMode="dialog"
+        android:backgroundTint="#3090C7"
+         />
+
+    <Spinner
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s6"
+        android:entries="@array/grade"
+        android:backgroundTint="#3090C7"
+        android:spinnerMode="dialog"
+        android:layout_x="242dp"
+        android:layout_y="297dp"
+  ></Spinner>
+
+
+</AbsoluteLayout>
